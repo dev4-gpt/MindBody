@@ -44,7 +44,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 Run tests with:
 ```bash
-pytest tests/
+pytest test_system.py
 ```
 
 ## Pull Request Process
