@@ -78,4 +78,5 @@ htmlcov/
 
 # Streamlit
 .streamlit/
+.cursor/
 

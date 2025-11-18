@@ -34,7 +34,7 @@ git commit -m "Initial commit: Multi-agent orchestration framework for MindBody 
 ### 4. Create GitHub Repository
 
 1. Go to https://github.com/new
-2. Repository name: `mindbody-strength-coach` (or your preferred name)
+2. Repository name: `MindBody` (or your preferred name)
 3. Description: "Multi-agent orchestration framework for real-time exercise form correction, nutrition estimation, and mindfulness coaching"
 4. Choose Public or Private
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
@@ -46,7 +46,7 @@ After creating the repo, GitHub will show you commands. Use these:
 
 ```bash
 # Add remote (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/mindbody-strength-coach.git
+git remote add origin https://github.com/dev4-gpt/MindBody.git
 
 # Rename branch to main (if needed)
 git branch -M main
