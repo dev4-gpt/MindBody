@@ -1,0 +1,9 @@
+[MASTER]
+init-hook='import sys; sys.path.insert(0, "backend")'
+
+[MESSAGES CONTROL]
+disable=import-error,no-member
+
+[TYPECHECK]
+ignored-modules=app
+

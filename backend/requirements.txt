@@ -1,0 +1,43 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Computer Vision
+opencv-python==4.8.1.78
+mediapipe==0.10.8
+numpy==1.24.3
+Pillow==10.1.0
+
+# Machine Learning
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.35.0
+tensorflow==2.15.0
+
+# LLM (for mindfulness agent)
+langchain==0.0.350
+langchain-community==0.0.10
+sentence-transformers==2.2.2
+
+# Utilities
+requests==2.31.0
+python-dotenv==1.0.0
+aiofiles==23.2.1
+
+# Database (optional, for production)
+sqlalchemy==2.0.23
+# Note: sqlite3 is built-in to Python, no need to install
+
+# Monitoring & Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Frontend (Streamlit)
+streamlit==1.28.1
+
